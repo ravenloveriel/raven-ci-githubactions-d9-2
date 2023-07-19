@@ -13,18 +13,23 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
+        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
-        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
-        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/..' . '/drupal/core/includes/bootstrap.inc',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WebSocket\\' => 10,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -47,6 +52,7 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
             'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
+            'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Serializer\\' => 29,
             'Symfony\\Component\\Routing\\' => 26,
@@ -54,10 +60,13 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\DependencyInjection\\' => 38,
+            'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
         ),
         'P' => 
@@ -81,6 +90,10 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'F' => 
+        array (
+            'FailAid\\' => 8,
+        ),
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
@@ -92,10 +105,22 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
             'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
+            'DMore\\ChromeExtension\\' => 22,
+            'DMore\\ChromeDriver\\' => 19,
         ),
         'C' => 
         array (
             'Composer\\Semver\\' => 16,
+        ),
+        'B' => 
+        array (
+            'Behat\\Transliterator\\' => 21,
+            'Behat\\Testwork\\' => 15,
+            'Behat\\Step\\' => 11,
+            'Behat\\Mink\\Driver\\' => 18,
+            'Behat\\Mink\\' => 11,
+            'Behat\\Hook\\' => 11,
+            'Behat\\Behat\\' => 12,
         ),
         'A' => 
         array (
@@ -104,6 +129,10 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
     );
 
     public static $prefixDirsPsr4 = array (
+        'WebSocket\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/textalk/websocket/lib',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -172,6 +201,10 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         array (
             0 => __DIR__ . '/..' . '/symfony/validator',
         ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
         'Symfony\\Component\\String\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
@@ -200,6 +233,10 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
@@ -212,9 +249,17 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         array (
             0 => __DIR__ . '/..' . '/symfony/dependency-injection',
         ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
         ),
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
@@ -226,8 +271,8 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -269,6 +314,10 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'FailAid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/genesis/behat-fail-aid/src',
+        ),
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
@@ -293,9 +342,45 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
+        'DMore\\ChromeExtension\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmore/behat-chrome-extension/src',
+        ),
+        'DMore\\ChromeDriver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmore/chrome-mink-driver/src',
+        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Behat\\Transliterator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/transliterator/src/Behat/Transliterator',
+        ),
+        'Behat\\Testwork\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Testwork',
+        ),
+        'Behat\\Step\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Step',
+        ),
+        'Behat\\Mink\\Driver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
+        ),
+        'Behat\\Mink\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/mink/src',
+        ),
+        'Behat\\Hook\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Hook',
+        ),
+        'Behat\\Behat\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat',
         ),
         'Asm89\\Stack\\' => 
         array (
@@ -304,11 +389,40 @@ class ComposerStaticInite8b8328961499cea701164c149a5758d
     );
 
     public static $prefixesPsr0 = array (
+        'W' => 
+        array (
+            'WebDriver' => 
+            array (
+                0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
+            ),
+        ),
+        'D' => 
+        array (
+            'Drupal\\Tests\\Driver' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/tests',
+            ),
+            'Drupal\\Driver' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
+            ),
+        ),
         'C' => 
         array (
             'Console' => 
             array (
                 0 => __DIR__ . '/..' . '/pear/console_getopt',
+            ),
+        ),
+        'B' => 
+        array (
+            'Behat\\MinkExtension' => 
+            array (
+                0 => __DIR__ . '/..' . '/friends-of-behat/mink-extension/src',
+            ),
+            'Behat\\Gherkin' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/gherkin/src',
             ),
         ),
         'A' => 

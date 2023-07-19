@@ -6,7 +6,12 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'WebDriver' => array($vendorDir . '/instaclick/php-webdriver/lib'),
+    'Drupal\\Tests\\Driver' => array($vendorDir . '/drupal/drupal-driver/tests'),
+    'Drupal\\Driver' => array($vendorDir . '/drupal/drupal-driver/src'),
     'Console' => array($vendorDir . '/pear/console_getopt'),
+    'Behat\\MinkExtension' => array($vendorDir . '/friends-of-behat/mink-extension/src'),
+    'Behat\\Gherkin' => array($vendorDir . '/behat/gherkin/src'),
     'Archive_Tar' => array($vendorDir . '/pear/archive_tar'),
     '' => array($vendorDir . '/pear/pear-core-minimal/src'),
 );
